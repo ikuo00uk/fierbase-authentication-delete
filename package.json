@@ -1,0 +1,22 @@
+{
+  "name": "firebase-authentication-delete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "env": "0.0.2",
+    "firebase-admin": "^9.5.0",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "create": "tsc && node build/create.js",
+    "delete": "tsc && node build/delete.js"
+  },
+  "author": "ikuo00uk",
+  "license": "ISC"
+}
